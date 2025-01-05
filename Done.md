@@ -1,39 +1,26 @@
 QUIZ GAME
 
+    #include <stdio.h>
 
-
-
-
-
-
-
-
-
-
-
-
-
-#include <stdio.h>
-
-int main() // initialization of code
-{
+    int main() // initialization of code
+    {
     int i;
     int ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10;
     int total;
     int points = 0;
     printf("   Welcome to the Game\n");
     printf("> press 7 to start the game\n");
-    printf("> press 0 to quit the game\n");
+    printf("> press 0 to quit the game\n");          
     scanf("%d", &i);
 
-    if (i == 7)
-    {
-        printf(" 5 points added on a correct answer\n 5 points deducted on a wrong answer\n");
-
-        printf("The game has been started \n");
-        printf("i) Which one is the first search engine on the internet? \n");
-        printf(" 1) Google \n 2) Archie \n 3) Wais \n 4) Altavista \n");
-        printf("Enter your answer: ");
+      if (i == 7)
+      {
+         printf(" 5 points added on a correct answer\n 5 points deducted on a wrong answer\n");
+  
+         printf("The game has been started \n");
+         printf("i) Which one is the first search engine on the internet? \n");
+         printf(" 1) Google \n 2) Archie \n 3) Wais \n 4) Altavista \n");
+         printf("Enter your answer: ");
         scanf("%d", &ans1);
         if (ans1 == 2)
         {
