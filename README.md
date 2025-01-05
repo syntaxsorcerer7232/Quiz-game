@@ -1,4 +1,18 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 
 int main() // initialization of code
